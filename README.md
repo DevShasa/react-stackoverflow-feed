@@ -13,3 +13,21 @@ react-router also powers pagination
 - Async/Await 
 
 # Live site
+- https://lucid-johnson-91f6a4.netlify.app/
+
+# Screenshot
+![Screenshot](screenshot.png)
+
+# Running the app, 
+you need npm installed!
+Clone the project by running the command
+```
+git clone https://github.com/DevShasa/react-stackoverflow-feed.git
+```
+
+Navigate into the newly created folder then run the commands 
+```javascript
+npm install
+//let npm install the packages then run
+npm start 
+```

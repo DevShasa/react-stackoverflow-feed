@@ -11,6 +11,7 @@ react-router also powers pagination
 - React router
 - Progressive web app
 - Async/Await 
+- Pagination
 
 # Live site
 - https://lucid-johnson-91f6a4.netlify.app/

@@ -1,0 +1,16 @@
+.owner{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+}
+.owner > img{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+}
+
+.owner > h3{
+    margin-left: 1em;
+}

@@ -1,0 +1,43 @@
+.feedwrapper{
+    margin: 3em;
+    display: flex;
+    /*
+    Remember changing glrx direction also changes 
+    the main axis from horixontal to vertical
+    */
+    flex-direction: column;
+    /*Distributes space between the flex items*/
+    justify-content: space-between;
+}
+.alert{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(247, 88, 25);
+    margin: 3rem;
+}
+.feedwrapper > a{
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 1em;
+}
+a >.card:hover{
+    border: 1px solid rgb(253, 1, 1); 
+}
+.paginationbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paginationbar > a{
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+    background-color: lightBlue;
+    border:1px solid transparent;
+}
+.paginationbar > a:hover{
+    border:1px solid black;
+    color: black;
+}

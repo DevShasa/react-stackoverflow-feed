@@ -1,0 +1,8 @@
+.header{
+    background-color: orange;
+    height: 100%;
+    padding: 1em 0;
+}
+.header > h1{
+    pointer-events: none;
+}
